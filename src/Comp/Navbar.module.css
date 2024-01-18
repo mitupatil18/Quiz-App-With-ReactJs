@@ -1,0 +1,12 @@
+.image{
+    padding: 2%;
+}
+.container{
+    background-color: wheat;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

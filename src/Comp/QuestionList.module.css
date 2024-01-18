@@ -1,0 +1,60 @@
+/* Common styles for both large and small screens */
+.result {
+    background-color: wheat;
+    text-align: center;
+    padding: 2%;
+    font-size: 24px; /* Adjusted base font size for better readability */
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.endcontainer {
+    background-color: wheat;
+    margin: 2% 5%; /* Adjusted margin for better spacing */
+    padding: 2%;
+    text-align: center;
+}
+
+.quizans {
+    text-align: center;
+    font-size: 32px; /* Adjusted base font size for better readability */
+    padding: 2%;
+}
+
+/* Media query for medium-sized screens */
+@media only screen and (min-width: 601px) {
+    .result {
+        font-size: 28px;
+    }
+
+    .endcontainer {
+        max-width: 70vw;
+        margin: 2% 15%; /* Adjusted margin for better spacing */
+        padding: 2%;
+    }
+
+    .quizans {
+        font-size: 36px;
+    }
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1025px) {
+    .result {
+        font-size: 32px;
+    }
+
+    .endcontainer {
+        max-width: 50vw;
+        margin: 2% 25%; /* Adjusted margin for better spacing */
+    }
+
+    .quizans {
+        font-size: 40px;
+    }
+}
+
+/* Add a smooth transition for a better user experience */
+.result, .endcontainer, .quizans {
+    transition: all 0.3s ease-in-out;
+}
